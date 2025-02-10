@@ -1,0 +1,2 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /, Status: 200, Res: 11, Response Time: 2.175 ms","timestamp":"2025-02-10 04:37:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /favicon.ico, Status: 404, Res: 150, Response Time: 1.125 ms","timestamp":"2025-02-10 04:37:27"}
