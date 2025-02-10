@@ -1,0 +1,39 @@
+services:
+  database:
+    image: mongo:8.0
+    container_name: database_container
+    ports:
+      - 27017:27017
+    networks:
+      - backend_network
+    volumes:
+      - database_volume:/data/db
+  redis:
+    image: redis:latest
+    container_name: redis_container
+    ports:
+      - 6379:6379
+    networks:
+      - backend_network
+    volumes:
+      - redis_volume:/data
+  server:
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    container_name: server_container
+    ports:
+      - 5000:5000
+    networks:
+      - backend_network
+    volumes:
+      - '/home/abdullah/Desktop/ElevanceNet/ElevanceNet_Backend:/usr/src/app'
+    depends_on:
+      - database
+      - redis
+networks:
+  backend_network:
+    driver: bridge
+volumes:
+  database_volume:
+  redis_volume:
