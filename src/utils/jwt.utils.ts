@@ -1,16 +1,16 @@
 import jwt, { JwtPayload } from 'jsonwebtoken';
 import { Payload } from '../interfaces/payload.interfaces.js';
 import {
-  JWT_ACCESS_TOKEN_EXPIRES_IN,
+  ACCESS_TOKEN_EXPIRES_IN,
   JWT_ACCESS_TOKEN_SECRET_KEY,
-  JWT_REFRESH_TOKEN_EXPIRES_IN,
+  REFRESH_TOKEN_EXPIRES_IN,
   JWT_REFRESH_TOKEN_SECRET_KEY,
 } from '../const.js';
 
 export const generateAccessToken = (payload: Payload): string | null => {
   try {
     const token = jwt.sign(payload, JWT_ACCESS_TOKEN_SECRET_KEY, {
-      expiresIn: JWT_ACCESS_TOKEN_EXPIRES_IN,
+      expiresIn: ACCESS_TOKEN_EXPIRES_IN,
     });
     return token;
   } catch (error) {
@@ -22,7 +22,7 @@ export const generateAccessToken = (payload: Payload): string | null => {
 export const generateRefreshToken = (payload: Payload): string | null => {
   try {
     const token = jwt.sign(payload, JWT_REFRESH_TOKEN_SECRET_KEY, {
-      expiresIn: JWT_REFRESH_TOKEN_EXPIRES_IN,
+      expiresIn: REFRESH_TOKEN_EXPIRES_IN,
     });
     return token;
   } catch (error) {
