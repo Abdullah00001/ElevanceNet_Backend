@@ -27,3 +27,13 @@ export const CORS_ORIGIN_DEV = env.CORS_ORIGIN_DEV;
 export const CORS_ORIGIN_PROD = env.CORS_ORIGIN_PROD;
 
 export const CORS_WHITE_LIST = [CORS_ORIGIN_DEV, CORS_ORIGIN_PROD];
+
+export const SALT_ROUNDS: number = 10;
+
+export const SMTP_HOST = env.SMTP_HOST;
+
+export const SMTP_PORT = env.SMTP_PORT;
+
+export const SMTP_USER = env.SMTP_USER;
+
+export const SMTP_PASS = env.SMTP_PASS;

@@ -21,7 +21,7 @@ export default interface IEnvConfig {
   JWT_REFRESH_TOKEN_SECRET_KEY: string;
   JWT_SALT_ROUND: string;
   SMTP_HOST: string;
-  SMTP_PORT: string;
+  SMTP_PORT: number;
   SMTP_USER: string;
   SMTP_PASS: string;
   CORS_ORIGIN_DEV: string;
