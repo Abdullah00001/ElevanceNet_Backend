@@ -33,7 +33,7 @@ const env: IEnvConfig = {
   JWT_REFRESH_TOKEN_SECRET_KEY: getEnvVariable('JWT_REFRESH_TOKEN_SECRET_KEY'),
   JWT_SALT_ROUND: getEnvVariable('JWT_SALT_ROUND'),
   SMTP_HOST: getEnvVariable('SMTP_HOST'),
-  SMTP_PORT: getEnvVariable('SMTP_PORT'),
+  SMTP_PORT: Number(getEnvVariable('SMTP_PORT')),
   SMTP_USER: getEnvVariable('SMTP_USER'),
   SMTP_PASS: getEnvVariable('SMTP_PASS'),
   CORS_ORIGIN_DEV: getEnvVariable('CORS_ORIGIN_DEV'),
