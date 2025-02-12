@@ -16,7 +16,6 @@ export default interface IEnvConfig {
   CLOUDINARY_API_SECRET_KEY: string;
   REDIS_DEVELOPMENT_URI: string;
   REDIS_PRODUCTION_URI: string;
-  REDIS_PRODUCTION_TOKEN: string;
   JWT_ACCESS_TOKEN_SECRET_KEY: string;
   JWT_REFRESH_TOKEN_SECRET_KEY: string;
   JWT_SALT_ROUND: string;

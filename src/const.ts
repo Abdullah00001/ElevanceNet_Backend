@@ -37,3 +37,7 @@ export const SMTP_PORT = env.SMTP_PORT;
 export const SMTP_USER = env.SMTP_USER;
 
 export const SMTP_PASS = env.SMTP_PASS;
+
+export const REDIS_DEVELOPMENT_URI = env.REDIS_DEVELOPMENT_URI;
+
+export const REDIS_PRODUCTION_URI = env.REDIS_PRODUCTION_URI;

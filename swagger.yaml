@@ -8107,13 +8107,13 @@ paths:
                         type: string
                         example: "https://elevancenet.netlify.app/docs/v1"
   # TOPIC POST,GET ENDPOINT DESIGN
-  /topics:
-    get:
-      tags:
-        - Topics
-      security:
-        - CookieAuth: []
-      description: |-
+  # /topics:
+  #   get:
+  #     tags:
+  #       - Topics
+  #     security:
+  #       - CookieAuth: []
+  #     description: |-
 
 
 components:
