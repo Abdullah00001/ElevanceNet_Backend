@@ -41,3 +41,5 @@ export const SMTP_PASS = env.SMTP_PASS;
 export const REDIS_DEVELOPMENT_URI = env.REDIS_DEVELOPMENT_URI;
 
 export const REDIS_PRODUCTION_URI = env.REDIS_PRODUCTION_URI;
+
+export const emailRegex = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;

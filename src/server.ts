@@ -1,7 +1,6 @@
 import dotenv from 'dotenv';
 import app from './app.js';
 import env from './configs/env.js';
-import SuccessApiResponse from './utils/successApiResponse.utils.js';
 import connectDb from './configs/db.configs.js';
 
 dotenv.config();
