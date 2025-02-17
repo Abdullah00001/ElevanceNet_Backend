@@ -18,9 +18,14 @@ export const JWT_ACCESS_TOKEN_SECRET_KEY = env.JWT_ACCESS_TOKEN_SECRET_KEY;
 
 export const JWT_REFRESH_TOKEN_SECRET_KEY = env.JWT_REFRESH_TOKEN_SECRET_KEY;
 
+export const JWT_VERIFY_PAGE_TOKEN_SECRET_KEY =
+  env.JWT_VERIFY_PAGE_TOKEN_SECRET_KEY;
+
 export const ACCESS_TOKEN_EXPIRES_IN = '30min';
 
 export const REFRESH_TOKEN_EXPIRES_IN = '7d';
+
+export const VERIFY_PAGE_EXPIRES_IN = '1d';
 
 export const CORS_ORIGIN_DEV = env.CORS_ORIGIN_DEV;
 
@@ -43,3 +48,5 @@ export const REDIS_DEVELOPMENT_URI = env.REDIS_DEVELOPMENT_URI;
 export const REDIS_PRODUCTION_URI = env.REDIS_PRODUCTION_URI;
 
 export const emailRegex = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;
+
+export const OTP_EXPIRED_TIME: number = 3;

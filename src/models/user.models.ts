@@ -1,5 +1,6 @@
 import { Model, model, Schema } from 'mongoose';
 import IUser, { IRole } from '../interfaces/user.interfaces.js';
+import { hashPassword } from '../utils/password.utils.js';
 
 const UserSchema = new Schema<IUser>({
   firstName: {
@@ -21,6 +22,20 @@ const UserSchema = new Schema<IUser>({
   isVerified: { type: Boolean, default: false },
   password: { type: String, minlength: 8, required: true },
   role: { type: String, default: IRole.User },
+});
+
+UserSchema.pre('save', async function (next) {
+  const user = this;
+  if (user.isModified('password') || user.isNew) {
+    try {
+      user.password = (await hashPassword(user.password)) as string;
+      next();
+    } catch (error) {
+      if (error instanceof Error) {
+        next(error);
+      }
+    }
+  }
 });
 
 UserSchema.index({ firstName: 'text', lastName: 'text' });

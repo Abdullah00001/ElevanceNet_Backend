@@ -1,13 +1,27 @@
-
 import { NextFunction, Request, Response } from 'express';
 import logger from '../../configs/logger.configs.js';
 import IGlobalError from '../../interfaces/globalError.interfaces.js';
+import signupService from '../../services/authentication/signup.services.js';
+import cookieOption from '../../utils/cookie.utils.js';
+import SuccessApiResponse from '../../utils/successApiResponse.utils.js';
 const signupController = async (
   req: Request,
   res: Response,
   next: NextFunction
 ): Promise<void> => {
   try {
+    const token = await signupService(req.body);
+    const response = new SuccessApiResponse(
+      'Signup successful',
+      null,
+      null,
+      null,
+      req.originalUrl,
+      '/api/v1/auth/verify',
+      null
+    );
+    res.cookie('verify_page_accesstoken', token, cookieOption(null, 1));
+    res.status(200).json(response);
   } catch (error) {
     if (error instanceof Error) {
       logger.error(error.message);

@@ -18,6 +18,7 @@ export default interface IEnvConfig {
   REDIS_PRODUCTION_URI: string;
   JWT_ACCESS_TOKEN_SECRET_KEY: string;
   JWT_REFRESH_TOKEN_SECRET_KEY: string;
+  JWT_VERIFY_PAGE_TOKEN_SECRET_KEY: string;
   JWT_SALT_ROUND: string;
   SMTP_HOST: string;
   SMTP_PORT: number;

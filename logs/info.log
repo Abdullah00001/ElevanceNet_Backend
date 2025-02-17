@@ -126,3 +126,62 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 400, Res: 750, Response Time: 0.327 ms","timestamp":"2025-02-16 04:35:10"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 400, Res: 750, Response Time: 2.564 ms","timestamp":"2025-02-16 04:41:47"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 400, Res: 750, Response Time: 2.646 ms","timestamp":"2025-02-16 04:42:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/, Status: 304, Res: 0, Response Time: 2.475 ms","timestamp":"2025-02-16 12:50:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-init.js, Status: 200, Res: 485325, Response Time: 1.815 ms","timestamp":"2025-02-16 12:50:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui.css, Status: 200, Res: 152072, Response Time: 8.399 ms","timestamp":"2025-02-16 12:50:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-standalone-preset.js, Status: 200, Res: 230007, Response Time: 7.445 ms","timestamp":"2025-02-16 12:50:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-bundle.js, Status: 200, Res: 1458834, Response Time: 9.576 ms","timestamp":"2025-02-16 12:50:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/favicon-32x32.png, Status: 304, Res: 0, Response Time: 0.956 ms","timestamp":"2025-02-16 12:50:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 409, Res: 586, Response Time: 49.545 ms","timestamp":"2025-02-16 15:34:54"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-16 15:35:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 111.113 ms","timestamp":"2025-02-16 15:35:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 409, Res: 586, Response Time: 42.338 ms","timestamp":"2025-02-16 15:36:09"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-16 15:36:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 92.998 ms","timestamp":"2025-02-16 15:36:22"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:28:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 32.702 ms","timestamp":"2025-02-17 01:28:27"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:33:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 31.522 ms","timestamp":"2025-02-17 01:33:54"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:39:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 33.151 ms","timestamp":"2025-02-17 01:39:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 409, Res: 586, Response Time: 9.680 ms","timestamp":"2025-02-17 01:40:20"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:49:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 33.069 ms","timestamp":"2025-02-17 01:49:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:51:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 2411.508 ms","timestamp":"2025-02-17 01:51:02"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:54:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 2592.285 ms","timestamp":"2025-02-17 01:54:50"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:01:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 32.824 ms","timestamp":"2025-02-17 02:01:24"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:07:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 31.974 ms","timestamp":"2025-02-17 02:07:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:13:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 33.360 ms","timestamp":"2025-02-17 02:13:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:15:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 32.673 ms","timestamp":"2025-02-17 02:15:13"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:17:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 30.262 ms","timestamp":"2025-02-17 02:17:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:22:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 35.531 ms","timestamp":"2025-02-17 02:22:42"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:31:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 2734.363 ms","timestamp":"2025-02-17 02:31:22"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:35:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 3324.828 ms","timestamp":"2025-02-17 02:35:11"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:38:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 3188.474 ms","timestamp":"2025-02-17 02:38:02"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:46:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 2769.268 ms","timestamp":"2025-02-17 02:46:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/, Status: 304, Res: 0, Response Time: 2.038 ms","timestamp":"2025-02-17 03:44:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-init.js, Status: 200, Res: 485325, Response Time: 1.655 ms","timestamp":"2025-02-17 03:44:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-standalone-preset.js, Status: 304, Res: 0, Response Time: 1.633 ms","timestamp":"2025-02-17 03:44:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui.css, Status: 304, Res: 0, Response Time: 2.716 ms","timestamp":"2025-02-17 03:44:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-bundle.js, Status: 200, Res: 1458834, Response Time: 8.578 ms","timestamp":"2025-02-17 03:44:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/favicon-32x32.png, Status: 304, Res: 0, Response Time: 1.606 ms","timestamp":"2025-02-17 03:44:39"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 03:57:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 500, Res: 1080, Response Time: 2874.390 ms","timestamp":"2025-02-17 03:57:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 344, Response Time: 3392.554 ms","timestamp":"2025-02-17 04:02:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 344, Response Time: 2835.348 ms","timestamp":"2025-02-17 04:08:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 344, Response Time: 2913.203 ms","timestamp":"2025-02-17 04:24:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 344, Response Time: 2799.350 ms","timestamp":"2025-02-17 04:33:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 344, Response Time: 2817.650 ms","timestamp":"2025-02-17 04:34:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 361, Response Time: 71.603 ms","timestamp":"2025-02-17 04:39:39"}
