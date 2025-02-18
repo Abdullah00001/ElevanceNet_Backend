@@ -25,7 +25,7 @@ const checkBlackListMiddleware = async (
       ];
 
       const response = new ErrorApiResponse(
-        'Token missingMissing token. Access denied.',
+        'Token missing. Access denied.',
         errors,
         hints,
         null,

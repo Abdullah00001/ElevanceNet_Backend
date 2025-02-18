@@ -24,3 +24,4 @@ export const REDIS_DEVELOPMENT_URI = env.REDIS_DEVELOPMENT_URI;
 export const REDIS_PRODUCTION_URI = env.REDIS_PRODUCTION_URI;
 export const emailRegex = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;
 export const OTP_EXPIRED_TIME = 3;
+export const TOKEN_BLACKLIST = 'token:blacklist';

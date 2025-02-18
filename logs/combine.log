@@ -190,3 +190,14 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1//auth/signup, Status: 200, Res: 363, Response Time: 50.740 ms","timestamp":"2025-02-17 06:07:38"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1//auth/signup, Status: 200, Res: 363, Response Time: 74.278 ms","timestamp":"2025-02-17 06:13:56"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1//auth/signup, Status: 200, Res: 363, Response Time: 50.705 ms","timestamp":"2025-02-17 06:17:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1//auth//auth/protected/verify-page, Status: 404, Res: 179, Response Time: 1.565 ms","timestamp":"2025-02-18 06:12:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1//auth/protected/verify-page, Status: 404, Res: 173, Response Time: 3.590 ms","timestamp":"2025-02-18 06:13:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/protected/verify-page, Status: 404, Res: 172, Response Time: 1.258 ms","timestamp":"2025-02-18 06:13:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/protected/verify-page, Status: 401, Res: 734, Response Time: 1.951 ms","timestamp":"2025-02-18 06:21:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/protected/verify-page, Status: 401, Res: 721, Response Time: 1.965 ms","timestamp":"2025-02-18 06:22:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/protected/verify-page, Status: 401, Res: 721, Response Time: 0.409 ms","timestamp":"2025-02-18 06:22:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 362, Response Time: 73.469 ms","timestamp":"2025-02-18 06:23:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/protected/verify-page, Status: 204, Res: 0, Response Time: 2.161 ms","timestamp":"2025-02-18 06:23:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/protected/verify-page, Status: 204, Res: 0, Response Time: 3.224 ms","timestamp":"2025-02-18 06:26:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/protected/verify-page, Status: 204, Res: 0, Response Time: 3.891 ms","timestamp":"2025-02-18 06:27:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/protected/verify-page, Status: 204, Res: 0, Response Time: 1.583 ms","timestamp":"2025-02-18 06:27:17"}
