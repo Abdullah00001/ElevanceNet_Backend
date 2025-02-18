@@ -3,5 +3,10 @@ export interface IVerificationEmailData {
   lastName: string;
   email: string;
   expirationTime: number;
-  otp:string
+  otp: string;
+}
+
+export interface IAccountVerificationParam {
+  otp: string;
+  email: string;
 }
