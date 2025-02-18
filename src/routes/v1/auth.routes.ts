@@ -8,6 +8,7 @@ import checkEmailExistsMiddleware from '../../middlewares/authentication/checkEm
 import checkBlackListMiddleware from '../../middlewares/authentication/checkBlackList.middlewares.js';
 import checkVerifyPageAccessTokenMiddleware from '../../middlewares/authentication/checkVerifyPageAccessToken.middlewares.js';
 import protectVerifyPageController from '../../controllers/authentication/protectVerifyPage.controllers.js';
+import otpInputValidationMiddleware from '../../middlewares/authentication/otpInputValidation.middlewares.js';
 
 router
   .route('/auth/signup')
@@ -23,5 +24,8 @@ router
     checkVerifyPageAccessTokenMiddleware,
     protectVerifyPageController
   );
+router
+  .route('/auth/verify')
+  .post(checkVerifyPageAccessTokenMiddleware, otpInputValidationMiddleware);
 
 export default router;

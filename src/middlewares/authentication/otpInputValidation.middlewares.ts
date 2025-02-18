@@ -1,13 +1,13 @@
 import { NextFunction, Request, Response } from 'express';
-import signupInputValidationSchema from '../../validations/signup.validations.js';
+import otpValidationSchema from '../../validations/otp.validations.js';
 import ErrorApiResponse from '../../utils/errorApiResponse.utils.js';
 
-const signupInputValidationMiddleware = (
+const otpInputValidationMiddleware = (
   req: Request,
   res: Response,
   next: NextFunction
 ) => {
-  const validationResult = signupInputValidationSchema.safeParse(req.body);
+  const validationResult = otpValidationSchema.safeParse(req.body);
   if (!validationResult.success) {
     const formatErrors = validationResult.error.format();
     const errors = Object.entries(formatErrors)
@@ -20,7 +20,6 @@ const signupInputValidationMiddleware = (
         } else if (value?._errors) {
           message = value._errors[0];
         }
-
         return { field, message };
       });
     const hints = errors.map((err) => ({
@@ -44,4 +43,4 @@ const signupInputValidationMiddleware = (
   }
 };
 
-export default signupInputValidationMiddleware;
+export default otpInputValidationMiddleware;
