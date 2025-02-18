@@ -185,3 +185,8 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 344, Response Time: 2799.350 ms","timestamp":"2025-02-17 04:33:23"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 344, Response Time: 2817.650 ms","timestamp":"2025-02-17 04:34:55"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/signup, Status: 200, Res: 361, Response Time: 71.603 ms","timestamp":"2025-02-17 04:39:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1//auth/signup, Status: 200, Res: 363, Response Time: 72.336 ms","timestamp":"2025-02-17 05:58:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1//auth/signup, Status: 200, Res: 363, Response Time: 71.048 ms","timestamp":"2025-02-17 06:03:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1//auth/signup, Status: 200, Res: 363, Response Time: 50.740 ms","timestamp":"2025-02-17 06:07:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1//auth/signup, Status: 200, Res: 363, Response Time: 74.278 ms","timestamp":"2025-02-17 06:13:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1//auth/signup, Status: 200, Res: 363, Response Time: 50.705 ms","timestamp":"2025-02-17 06:17:36"}

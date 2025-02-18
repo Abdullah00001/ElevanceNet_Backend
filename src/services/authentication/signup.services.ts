@@ -13,7 +13,7 @@ const signupService = async (
 ): Promise<string> => {
   try {
     const createdUser = await createUser(requestBody);
-    const VERIFY_PAGE_ACCESS_TOKEN = generateVerifyPageAccessToken({
+    const verifyPageAccessToken = generateVerifyPageAccessToken({
       id: createdUser._id,
       email: createdUser.email,
     } as IVerifyPageTokenPayload);
@@ -37,7 +37,7 @@ const signupService = async (
       lastName: createdUser.lastName,
     };
     sendVerificationEmail(emailData);
-    return VERIFY_PAGE_ACCESS_TOKEN as string;
+    return verifyPageAccessToken as string;
   } catch (error) {
     if (error instanceof Error) {
       throw new Error(error.message);
