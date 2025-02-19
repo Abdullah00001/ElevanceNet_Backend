@@ -1,0 +1,22 @@
+{"level":"\u001b[31merror\u001b[39m","message":"some error","timestamp":"2025-02-15 14:33:35"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-16 15:35:48"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-16 15:36:22"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:28:27"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:33:54"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:39:29"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:49:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:51:02"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 01:54:50"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:01:24"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:07:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:13:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:15:13"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:17:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:22:42"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:31:22"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:35:11"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:38:02"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 02:46:25"}
+{"level":"\u001b[31merror\u001b[39m","message":"option domain is invalid","timestamp":"2025-02-17 03:57:15"}
+{"level":"\u001b[31merror\u001b[39m","message":"Otp Middleware Error: Cannot set headers after they are sent to the client","timestamp":"2025-02-18 15:11:59"}
+{"level":"\u001b[31merror\u001b[39m","message":"Otp Middleware Error: Cannot set headers after they are sent to the client","timestamp":"2025-02-18 15:13:33"}

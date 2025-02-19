@@ -11,7 +11,7 @@ const app = express();
 const swaggerDocumentPath = path.resolve(new URL('../swagger.yaml', import.meta.url).pathname);
 const swaggerDocument = YAML.load(swaggerDocumentPath);
 /* =====================================
- --- APP CONFIGURATION MIDDLEWARES ---
+--- APP CONFIGURATION MIDDLEWARES ---
 ===================================== */
 app.use(express.json());
 app.use(cors(corsConfiguration));
@@ -21,8 +21,13 @@ app.use(morgan(morganMessageFormat, {
         write: (message) => streamConfig(message),
     },
 }));
-/* ====================================|
-|--------------APP ROUTES--------------|
-|==================================== */
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+/* ====================================|
+|------------APP ROUTES V1-------------|
+|==================================== */
+import globalErrorMiddleware from './middlewares/globalError.middlewares.js';
+import { AuthRoute } from './routes/v1/index.js';
+import BASE_URL from './configs/baseUrl.configs.js';
+app.use(BASE_URL.v1, AuthRoute);
+app.use(globalErrorMiddleware);
 export default app;

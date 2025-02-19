@@ -17,7 +17,7 @@ const swaggerDocument: JsonObject = YAML.load(
 ) as JsonObject;
 
 /* =====================================
- --- APP CONFIGURATION MIDDLEWARES ---
+--- APP CONFIGURATION MIDDLEWARES ---
 ===================================== */
 
 app.use(express.json());
@@ -30,11 +30,17 @@ app.use(
     },
   })
 );
-
-
-/* ====================================|
-|--------------APP ROUTES--------------|
-|==================================== */
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+/* ====================================|
+|------------APP ROUTES V1-------------|
+|==================================== */
+
+import globalErrorMiddleware from './middlewares/globalError.middlewares.js';
+import { AuthRoute } from './routes/v1/index.js';
+import BASE_URL from './configs/baseUrl.configs.js';
+
+app.use(BASE_URL.v1, AuthRoute);
+
+app.use(globalErrorMiddleware);
 
 export default app;

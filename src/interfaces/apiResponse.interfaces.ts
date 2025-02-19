@@ -54,6 +54,16 @@ export interface IMeta {
   pagination: IPagination | null;
 }
 
+export interface IErrors {
+  field: string;
+  message: string;
+}
+
+export interface IHints {
+  field: string;
+  hint: string;
+}
+
 /**
  * Interface representing the structure of a successful API response.
  *
@@ -66,8 +76,8 @@ export default interface IApiResponse<T> {
   success: boolean;
   message: string;
   data: T | null;
-  errors: string[];
-  hints: string[];
+  errors: string[] | IErrors[];
+  hints: string[] | IHints[];
   meta: IMeta;
   links: ILinks;
 }

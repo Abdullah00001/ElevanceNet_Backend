@@ -1,5 +1,7 @@
 import { documentation, environment, version } from '../const.js';
 import IApiResponse, {
+  IErrors,
+  IHints,
   ILinks,
   IMeta,
   IPagination,
@@ -17,8 +19,8 @@ export default class ErrorApiResponse<T> implements IApiResponse<T> {
   success: boolean;
   message: string;
   data: T | null;
-  errors: string[];
-  hints: string[];
+  errors: string[] | IErrors[];
+  hints: string[] | IHints[];
   meta: IMeta;
   links: ILinks;
 
@@ -36,8 +38,8 @@ export default class ErrorApiResponse<T> implements IApiResponse<T> {
 
   constructor(
     message: string,
-    errors: string[],
-    hints: string[],
+    errors: string[] | IErrors[],
+    hints: string[] | IHints[],
     requestId: string | null,
     pagination: IPagination | null,
     self: string,

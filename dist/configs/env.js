@@ -34,5 +34,6 @@ const env = {
     SMTP_PASS: getEnvVariable('SMTP_PASS'),
     CORS_ORIGIN_DEV: getEnvVariable('CORS_ORIGIN_DEV'),
     CORS_ORIGIN_PROD: getEnvVariable('CORS_ORIGIN_PROD'),
+    JWT_VERIFY_PAGE_TOKEN_SECRET_KEY: getEnvVariable('JWT_VERIFY_PAGE_TOKEN_SECRET_KEY')
 };
 export default env;
