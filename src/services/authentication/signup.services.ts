@@ -24,6 +24,12 @@ const signupService = async (
       upperCaseAlphabets: false,
     });
     await redisClient.set(
+      `user:profile:${createdUser._id}`,
+      JSON.stringify(createdUser),
+      'EX',
+      86400
+    );
+    await redisClient.set(
       `user:otp:${createdUser.email}`,
       otp,
       'EX',

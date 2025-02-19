@@ -1,7 +1,7 @@
-import { Document } from 'mongoose';
 import User from '../../models/user.models.js';
+import IUser from '../../interfaces/user.interfaces.js';
 
-const findUserByEmail = async (email: string): Promise<Document | null> => {
+const findUserByEmail = async (email: string): Promise<IUser | null> => {
   try {
     const data = await User.findOne({ email });
     return data;

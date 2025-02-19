@@ -11,6 +11,7 @@ import protectVerifyPageController from '../../controllers/authentication/protec
 import otpInputValidationMiddleware from '../../middlewares/authentication/otpInputValidation.middlewares.js';
 import checkVerificationOtpMiddleware from '../../middlewares/authentication/checkVerificationOtp.middlewares.js';
 import accountVerificationController from '../../controllers/authentication/accountVerification.controllers.js';
+import resendOtpController from '../../controllers/authentication/resendOtp.controllers.js';
 
 router
   .route('/auth/signup')
@@ -31,10 +32,19 @@ router
 router
   .route('/auth/verify')
   .post(
+    checkBlackListMiddleware,
     checkVerifyPageAccessTokenMiddleware,
     otpInputValidationMiddleware,
     checkVerificationOtpMiddleware,
     accountVerificationController
+  );
+
+router
+  .route('/auth/resend/')
+  .post(
+    checkBlackListMiddleware,
+    checkVerifyPageAccessTokenMiddleware,
+    resendOtpController
   );
 
 export default router;

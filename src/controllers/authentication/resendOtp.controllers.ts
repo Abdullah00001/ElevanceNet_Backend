@@ -1,19 +1,19 @@
 import { NextFunction, Request, Response } from 'express';
 import IGlobalError from '../../interfaces/globalError.interfaces.js';
 import logger from '../../configs/logger.configs.js';
-import accountVerificationService from '../../services/authentication/accountVerification.services.js';
 import SuccessApiResponse from '../../utils/successApiResponse.utils.js';
+import resendOtpMiddleware from '../../services/authentication/resendOtp.middlewares.js';
 
-const accountVerificationController = async (
+const resendOtpController = async (
   req: Request,
   res: Response,
   next: NextFunction
 ): Promise<void> => {
   try {
-    const { email, id } = req.verifyPageDecoded!;
-    await accountVerificationService(email, id);
+    const { id } = req.verifyPageDecoded!;
+    await resendOtpMiddleware(id);
     const response = new SuccessApiResponse(
-      'Account verification successful',
+      'Otp resend successful',
       null,
       null,
       null,
@@ -21,7 +21,6 @@ const accountVerificationController = async (
       null,
       null
     );
-    res.clearCookie('verify_page_accesstoken');
     res.status(200).json(response);
     return;
   } catch (error) {
@@ -48,4 +47,4 @@ const accountVerificationController = async (
   }
 };
 
-export default accountVerificationController;
+export default resendOtpController;
