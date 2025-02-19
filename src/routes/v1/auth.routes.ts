@@ -12,6 +12,10 @@ import otpInputValidationMiddleware from '../../middlewares/authentication/otpIn
 import checkVerificationOtpMiddleware from '../../middlewares/authentication/checkVerificationOtp.middlewares.js';
 import accountVerificationController from '../../controllers/authentication/accountVerification.controllers.js';
 import resendOtpController from '../../controllers/authentication/resendOtp.controllers.js';
+import checkUserExistsMiddleware from '../../middlewares/authentication/checkUserExistMiddlewares.js';
+import loginController from '../../controllers/authentication/login.controllers.js';
+import checkPasswordMiddleware from '../../middlewares/authentication/checkPassoword.middlewares.js';
+import loginInputValidationMiddleware from '../../middlewares/authentication/loginInputValidation.middlewares.js';
 
 router
   .route('/auth/signup')
@@ -45,6 +49,15 @@ router
     checkBlackListMiddleware,
     checkVerifyPageAccessTokenMiddleware,
     resendOtpController
+  );
+
+router
+  .route('/auth/login/')
+  .post(
+    loginInputValidationMiddleware,
+    checkUserExistsMiddleware,
+    checkPasswordMiddleware,
+    loginController
   );
 
 export default router;

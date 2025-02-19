@@ -4,3 +4,8 @@ export interface ISignupRequestBody {
   email: string;
   password: string;
 }
+
+export interface ILoginServiceReturn {
+  accessToken: string;
+  refreshToken: string;
+}
