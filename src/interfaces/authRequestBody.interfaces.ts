@@ -9,3 +9,8 @@ export interface ILoginServiceReturn {
   accessToken: string;
   refreshToken: string;
 }
+
+export interface IRefreshAuthServiceReturn {
+  accesstoken: string;
+  refreshtoken: string;
+}

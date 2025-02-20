@@ -16,6 +16,11 @@ import checkUserExistsMiddleware from '../../middlewares/authentication/checkUse
 import loginController from '../../controllers/authentication/login.controllers.js';
 import checkPasswordMiddleware from '../../middlewares/authentication/checkPassoword.middlewares.js';
 import loginInputValidationMiddleware from '../../middlewares/authentication/loginInputValidation.middlewares.js';
+import checkAuthAccesstokenMiddleware from '../../middlewares/authentication/checkAuthAccesstoken.middlewares.js';
+import checkAuthController from '../../controllers/authentication/checkAuth.controllers.js';
+import checkAuthRefreshtokenMiddleware from '../../middlewares/authentication/checkAuthRefreshtoken.middlewares.js';
+import refreshAuthControllers from '../../controllers/authentication/refreshAuth.controllers.js';
+import logoutController from '../../controllers/authentication/logout.controllers.js';
 
 router
   .route('/auth/signup')
@@ -59,5 +64,17 @@ router
     checkPasswordMiddleware,
     loginController
   );
+
+router
+  .route('/auth/check')
+  .post(checkAuthAccesstokenMiddleware, checkAuthController);
+
+router
+  .route('/auth/refresh')
+  .post(checkAuthRefreshtokenMiddleware, refreshAuthControllers);
+
+router
+  .route('/auth/logout')
+  .post(checkAuthAccesstokenMiddleware, logoutController);
 
 export default router;
