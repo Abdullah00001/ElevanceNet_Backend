@@ -20,6 +20,7 @@ import checkAuthAccesstokenMiddleware from '../../middlewares/authentication/che
 import checkAuthController from '../../controllers/authentication/checkAuth.controllers.js';
 import checkAuthRefreshtokenMiddleware from '../../middlewares/authentication/checkAuthRefreshtoken.middlewares.js';
 import refreshAuthControllers from '../../controllers/authentication/refreshAuth.controllers.js';
+import logoutController from '../../controllers/authentication/logout.controllers.js';
 
 router
   .route('/auth/signup')
@@ -71,5 +72,9 @@ router
 router
   .route('/auth/refresh')
   .post(checkAuthRefreshtokenMiddleware, refreshAuthControllers);
+
+router
+  .route('/auth/logout')
+  .post(checkAuthAccesstokenMiddleware, logoutController);
 
 export default router;

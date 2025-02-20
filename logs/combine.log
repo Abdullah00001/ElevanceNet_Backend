@@ -316,3 +316,11 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/check, Status: 200, Res: 370, Response Time: 0.716 ms","timestamp":"2025-02-20 05:41:13"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/login, Status: 200, Res: 343, Response Time: 61.298 ms","timestamp":"2025-02-20 05:42:52"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/check, Status: 200, Res: 370, Response Time: 0.739 ms","timestamp":"2025-02-20 05:42:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/check, Status: 401, Res: 611, Response Time: 2.013 ms","timestamp":"2025-02-20 06:42:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/logout, Status: 401, Res: 612, Response Time: 0.479 ms","timestamp":"2025-02-20 06:42:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/refresh, Status: 200, Res: 380, Response Time: 4.280 ms","timestamp":"2025-02-20 06:42:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/logout, Status: 204, Res: 0, Response Time: 3.969 ms","timestamp":"2025-02-20 06:43:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/refresh, Status: 401, Res: 633, Response Time: 0.708 ms","timestamp":"2025-02-20 06:43:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/check, Status: 401, Res: 611, Response Time: 0.691 ms","timestamp":"2025-02-20 06:43:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/login, Status: 200, Res: 343, Response Time: 55.224 ms","timestamp":"2025-02-20 06:43:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/logout, Status: 204, Res: 0, Response Time: 0.934 ms","timestamp":"2025-02-20 06:43:53"}
