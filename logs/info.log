@@ -303,3 +303,16 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/check, Status: 401, Res: 611, Response Time: 0.277 ms","timestamp":"2025-02-19 17:26:59"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/check, Status: 200, Res: 370, Response Time: 3.308 ms","timestamp":"2025-02-19 17:27:27"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api/v1/auth/refresh, Status: 404, Res: 158, Response Time: 1.096 ms","timestamp":"2025-02-19 17:28:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/, Status: 304, Res: 0, Response Time: 3.009 ms","timestamp":"2025-02-20 04:22:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui.css, Status: 304, Res: 0, Response Time: 2.352 ms","timestamp":"2025-02-20 04:22:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-bundle.js, Status: 304, Res: 0, Response Time: 2.403 ms","timestamp":"2025-02-20 04:22:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-init.js, Status: 304, Res: 0, Response Time: 1.567 ms","timestamp":"2025-02-20 04:22:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/swagger-ui-standalone-preset.js, Status: 304, Res: 0, Response Time: 3.723 ms","timestamp":"2025-02-20 04:22:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: GET, URL: /api-docs/favicon-32x32.png, Status: 304, Res: 0, Response Time: 0.546 ms","timestamp":"2025-02-20 04:22:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/refresh, Status: 200, Res: 380, Response Time: 5.417 ms","timestamp":"2025-02-20 05:30:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/check, Status: 200, Res: 370, Response Time: 3.410 ms","timestamp":"2025-02-20 05:31:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/check, Status: 200, Res: 370, Response Time: 4.049 ms","timestamp":"2025-02-20 05:41:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/refresh, Status: 200, Res: 380, Response Time: 3.196 ms","timestamp":"2025-02-20 05:41:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/check, Status: 200, Res: 370, Response Time: 0.716 ms","timestamp":"2025-02-20 05:41:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/login, Status: 200, Res: 343, Response Time: 61.298 ms","timestamp":"2025-02-20 05:42:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Method: POST, URL: /api/v1/auth/check, Status: 200, Res: 370, Response Time: 0.739 ms","timestamp":"2025-02-20 05:42:58"}

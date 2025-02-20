@@ -18,6 +18,8 @@ import checkPasswordMiddleware from '../../middlewares/authentication/checkPasso
 import loginInputValidationMiddleware from '../../middlewares/authentication/loginInputValidation.middlewares.js';
 import checkAuthAccesstokenMiddleware from '../../middlewares/authentication/checkAuthAccesstoken.middlewares.js';
 import checkAuthController from '../../controllers/authentication/checkAuth.controllers.js';
+import checkAuthRefreshtokenMiddleware from '../../middlewares/authentication/checkAuthRefreshtoken.middlewares.js';
+import refreshAuthControllers from '../../controllers/authentication/refreshAuth.controllers.js';
 
 router
   .route('/auth/signup')
@@ -64,6 +66,10 @@ router
 
 router
   .route('/auth/check')
-  .get(checkAuthAccesstokenMiddleware, checkAuthController);
+  .post(checkAuthAccesstokenMiddleware, checkAuthController);
+
+router
+  .route('/auth/refresh')
+  .post(checkAuthRefreshtokenMiddleware, refreshAuthControllers);
 
 export default router;
